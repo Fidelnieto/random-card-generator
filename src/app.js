@@ -17,3 +17,5 @@ function changes() {
 button.addEventListener("click", changes);
 
 window.onload = changes();
+
+setInterval(changes, 10000);
